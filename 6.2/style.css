@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.square1 { background-color: blue;}
+.square2 { background-color: black; }
+.square3 { background-color: red; }
+.square4 { background-color: green; }
+
+.square1 { order: 4; }
+.square2 { order: 3; }
+.square3 { order: 2; }
+.square4 { order: 1; }
