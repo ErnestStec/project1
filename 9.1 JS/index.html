@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Opdrach 9.1 JS</title>
+</head>
+<body>
+    <button onclick="showCookieWall()">Open showCookieWall</button>
+
+    <div id="overlay"></div>
+
+    <div id="cookiewall">
+        <p>Geef je leeftijd op: </p>
+        <input type="number" id="ageInput" placeholder="Leeftijd">
+    <button onclick="checkAge()">Verifieren</button>
+    </div>
+
+    <div class="red-page" id="redPage">
+        <p>Helaas, je bent te jong.</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

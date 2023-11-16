@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1;
+}
+
+#cookiewall {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    z-index: 2;
+}
+
+#cookiewall p {
+    margin-bottom: 10px;
+}
+
+#ageInput {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#redPage {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    z-index: 2;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
